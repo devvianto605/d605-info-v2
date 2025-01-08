@@ -4,13 +4,13 @@ services:
     image: postgres:15.7
     ports:
       - "5432:5432"
-    container_name: poc-be-db
+    container_name: web-payload
     volumes:
       - db:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: cit-web-db
+      POSTGRES_DB: web-payload
 
 volumes:
   db:
