@@ -4,13 +4,15 @@ services:
     image: postgres:15.7
     ports:
       - "5432:5432"
-    container_name: web-payload
+    container_name: monex-p-db
     volumes:
       - db:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: web-payload
+      POSTGRES_DB: monex-p-db
+    networks:
+      - backend
 
 volumes:
   db:
