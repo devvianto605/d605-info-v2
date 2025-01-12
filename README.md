@@ -1,8 +1,6 @@
-# Turborepo: NextJs + Vite + Express + Storybook Template
+# MONEX-P (Monorepo Next Express Payload Template)
 
-This is an official starter Turborepo with multiple meta-frameworks all working in harmony and sharing packages.
-
-This example also shows how to use [Workspace Configurations](https://turbo.build/repo/docs/core-concepts/monorepos/configuring-workspaces).
+A boilerplate template for building a modern monorepo architecture with Next.js, Express, and Directus. Designed to streamline development and enhance scalability for full-stack applications. 
 
 ## What's inside?
 
@@ -11,14 +9,12 @@ This Turborepo includes the following packages and apps:
 ### Apps and Packages
 
 - `api`: an [Express](https://expressjs.com/) server
-- `storefront`: a [Next.js](https://nextjs.org/) app
-- `admin`: a [Vite](https://vitejs.dev/) single page app
+- `web`: a [Next.js](https://nextjs.org/) app
 - `workshop`: Component documentation/workshop site with 📖 [Storybook](https://storybook.js.org/) — UI component environment powered by Vite
+- `payload`:  A fully integrated headless CMS designed to manage and serve dynamic content through an intuitive interface and robust API
 
-*Remark: Most of the packages yet be integrated into payload frontend
-- `@repo/eslint-config`: ESLint configurations used throughout the monorepo
-- `@repo/jest-presets`: Jest configurations
 - `@repo/cric-ui`: prebuilt component with tailwind and cn utilities
+- `@repo/eslint-config`: ESLint configurations used throughout the monorepo
 - `@repo/typescript-config`: tsconfig.json's used throughout the monorepo
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
@@ -34,9 +30,6 @@ Run the following command to start the Docker containers (Postgres, Directus, et
 ```bash
 npm run docker:up
 ```
-```bash
-npx mikro-orm migration:up
-```
 
 ### Step 2: Start the Development Environment
 
@@ -50,12 +43,3 @@ npm run setup-env
 ```bash
 npm run dev
 ```
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Jest](https://jestjs.io) test runner for all things JavaScript
-- [Prettier](https://prettier.io) for code formatting
