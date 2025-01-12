@@ -1,6 +1,6 @@
 # MONEX-P (Monorepo Next Express Payload Template)
 
-A boilerplate template for building a modern monorepo architecture with Next.js, Express, and Directus. Designed to streamline development and enhance scalability for full-stack applications. 
+A boilerplate template for building a modern monorepo architecture with Next.js, Express, and Payload. Designed to streamline development and enhance scalability for full-stack applications. 
 
 ## What's inside?
 
