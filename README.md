@@ -8,10 +8,9 @@ This Turborepo includes the following packages and apps:
 
 ### Apps and Packages
 
-- `api`: an [Express](https://expressjs.com/) server
-- `web`: a [Next.js](https://nextjs.org/) app
+- `frontend`: a [Next.js](https://nextjs.org/) app fully integrated Payload CMS designed to manage and serve dynamic content through an intuitive interface and robust internal API
+- `backend`: an [Express](https://expressjs.com/) server 
 - `workshop`: Component documentation/workshop site with 📖 [Storybook](https://storybook.js.org/) — UI component environment powered by Vite
-- `payload`:  A fully integrated headless CMS designed to manage and serve dynamic content through an intuitive interface and robust API
 
 - `@repo/cric-ui`: prebuilt component with tailwind and cn utilities
 - `@repo/eslint-config`: ESLint configurations used throughout the monorepo
