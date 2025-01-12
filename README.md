@@ -29,6 +29,9 @@ Run the following command to start the Docker containers (Postgres, Directus, et
 ```bash
 npm run docker:up
 ```
+```bash
+npx mikro-orm migration:up
+```
 
 ### Step 2: Start the Development Environment
 
