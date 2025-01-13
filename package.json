@@ -10,7 +10,8 @@
     "typecheck": "turbo run typecheck",
     "docker:up": "docker-compose -f docker-compose.yml up",
     "docker:down": "docker-compose -f docker-compose.yml down",
-    "setup-env": "node ./setup-env.js apps/api/.env.sample apps/api/.env"
+    "setup-env": "node ./setup-env.js apps/backend/.env.sample apps/backend/.env",
+    "setup-db": "cd apps/backend && npx mikro-orm migration:up"
   },
   "devDependencies": {
     "prettier": "^3.2.5",

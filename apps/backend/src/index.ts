@@ -68,8 +68,8 @@ const initializeServer = async () => {
   app.use(errorLogger);
 
   // ----- Port ------
-  app.listen(3001, () => {
-    logger.info("Start server at port 3001.");
+  app.listen(3007, () => {
+    logger.info("Start server at port 3007.");
   });
 };
 
